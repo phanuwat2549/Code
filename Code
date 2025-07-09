@@ -1,1 +1,33 @@
-https://codinghtml6842.w3spaces.com
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="200" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(150,149);
+ctx.stroke();
+
+ctx.moveTo(0,200);
+ctx.lineTo(200,00);
+ctx.stroke();
+
+ctx.moveTo(300,00);
+ctx.lineTo(00,300);
+ctx.stroke();
+
+ctx.moveTo(150,50);
+ctx.lineTo(151,151);
+ctx.stroke();
+
+ctx.moveTo(50,150);
+ctx.lineTo(100,200);
+ctx.stroke();
+</script>
+
+</body>
+</html>
